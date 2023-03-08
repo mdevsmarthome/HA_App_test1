@@ -1,0 +1,9 @@
+.gitignore
+*.env
+*.config.*
+*secret*.json
+wrangler.toml
+
+.idea/
+node_modules/
+builds/

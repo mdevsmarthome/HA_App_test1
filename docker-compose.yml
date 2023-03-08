@@ -1,0 +1,17 @@
+version: '3.0'
+
+services:
+  main:
+    container_name: HAtest1_container
+    build:
+      context: .
+    env_file:
+#      - .development.env
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - 3005:3005
+    command: npm run dev
+    restart: always
