@@ -1,5 +1,5 @@
 ---
-version: 0.0.2
+version: 0.0.3
 slug: hatest1
 name: hatest1
 description: Simple browser-based my test application  for Home Assistant
