@@ -1,5 +1,5 @@
 {
-  "name": "mayak",
+  "name": "mdevsmarthome",
   "content_in_root": true,
   "iot_class": "Cloud Polling",
   "homeassistant": "2022.10.2",

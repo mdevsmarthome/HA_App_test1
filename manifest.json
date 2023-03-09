@@ -1,13 +1,11 @@
 {
-  "domain": "mayak",
+  "domain": "mdevsmarthome",
   "name": "hatest1 from mayak",
   "config_flow": true,
   "documentation": "https://github.com/mdevsmarthome/HA_App_test1",
-  "requirements": [
-    "nibeuplink==1.3.0"
-  ],
+  "requirements": [ ],
   "codeowners": [
-    "@mayak"
+    "@mdevsmarthome"
   ],
   "version": "0.0.1"
 }
