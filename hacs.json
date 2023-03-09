@@ -1,0 +1,7 @@
+{
+  "name": "mayak",
+  "content_in_root": true,
+  "iot_class": "Cloud Polling",
+  "homeassistant": "2022.10.2",
+  "domains": []
+}
