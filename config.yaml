@@ -3,17 +3,17 @@ version: 0.0.4
 slug: hatest1
 name: hatest1
 description: Simple browser-based my test application  for Home Assistant
-url: https://github.com/home-assistant/hassio-addons/tree/master/configurator
-codenotary: notary@home-assistant.io
+url: https://github.com/mdevsmarthome/HA_App_test1
+codenotary: mdevsmarthome@gmail.com
 arch:
   - armhf
   - armv7
   - aarch64
   - amd64
   - i386
-homeassistant: 0.91.1
+homeassistant: 2022.10.2
 homeassistant_api: true
-image: mayakov/hatest1-main
+image: mayakov/hatest1-main:latest
 ingress: true
 init: false
 map:
