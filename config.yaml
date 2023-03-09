@@ -1,8 +1,8 @@
 ---
-version: 0.0.1
+version: 0.0.2
 slug: hatest1
-name: File editor
-description: Simple browser-based file editor for Home Assistant
+name: hatest1
+description: Simple browser-based my test application  for Home Assistant
 url: https://github.com/home-assistant/hassio-addons/tree/master/configurator
 codenotary: notary@home-assistant.io
 arch:
