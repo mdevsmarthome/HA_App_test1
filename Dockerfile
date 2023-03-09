@@ -6,17 +6,22 @@
 #ARG APP_AUTH_VERSION
 
 
-FROM node:16.17-alpine
+#FROM node:18.15.0-alpine
+FROM node:19-alpine
 RUN npm install -g nodemon
 WORKDIR /app
 
 COPY package*.json ./
 
 RUN npm install
+#RUN nodemon
+RUN #npm run dev
+RUN #npm run start
 
 COPY . .
 
-
+ENV PORT=3006
+EXPOSE 3005/tcp
 
 
 
