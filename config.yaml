@@ -11,6 +11,7 @@ arch:
   - aarch64
   - amd64
   - i386
+homeassistant: 0.91.1
 homeassistant_api: true
 image: mayakov/hatest1:0.0.5
 ingress: true
@@ -26,7 +27,6 @@ options:
   enforce_basepath: true
   git: true
   ignore_pattern:
-    - __pycache__
     - .cloud
     - .storage
     - deps
