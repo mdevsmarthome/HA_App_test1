@@ -1,5 +1,5 @@
 ---
-version: 0.0.4
+version: 0.0.5
 slug: hatest1
 name: hatest1
 description: Simple browser-based my test application  for Home Assistant
@@ -13,7 +13,7 @@ arch:
   - i386
 homeassistant: 2022.10.2
 homeassistant_api: true
-image: mayakov/hatest1-main:latest
+image: mayakov/hatest1:0.0.5
 ingress: true
 init: false
 map:
